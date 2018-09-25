@@ -80,3 +80,21 @@
 ##### 10.设计模式
 
 ##### 11.中间件
+
+##### 12.大数据
+  * Hadoop
+  * Spark
+  * Flink
+  * Hive
+  * HBase
+  * Oozie
+  * Kudu
+  * kylin
+##### 13.机器学习
+  * 逻辑回归
+  * 贝叶斯
+  * knn
+  * 决策树
+  * svm
+  * GBDT
+  * 聚类
