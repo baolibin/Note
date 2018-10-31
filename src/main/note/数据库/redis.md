@@ -20,9 +20,10 @@
         (1) memcached所有的值均是简单的字符串，redis作为其替代者，支持更为丰富的数据类型
         (2) redis的速度比memcached快很多
         (3) redis可以持久化其数据
-    3、Redis支持哪几种数据类型？
+    3.Redis支持哪几种数据类型？
         String、List、Set、Sorted Set、hashes
-    
+    4.Redis回收使用的是什么算法？
+        LRU算法
 
 
 参考：
