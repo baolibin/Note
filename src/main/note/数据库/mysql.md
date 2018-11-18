@@ -12,7 +12,8 @@
         尽量减少select count(*) from table where col1="value"这种查询；
         杜绝select count(col1) from table where col2="value"这种查询；
             
-
+    mysql垂直拆分和水平拆分  
+        垂直拆分按列拆分，拆分列数据到不同表中；水平拆分按照行拆分比如按时间或user_id等范围进行拆分到不同表中。
 
 
 ##### 思考题
