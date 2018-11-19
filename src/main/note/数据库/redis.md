@@ -24,6 +24,7 @@
         String、List、Set、Sorted Set、hashes
     4.Redis回收使用的是什么算法？
         LRU算法
+    5.redis、mangodb、memcache区别及应用场景？
 
 
 参考：
