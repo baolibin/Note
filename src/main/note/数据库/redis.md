@@ -10,7 +10,7 @@
 ##### 资料
 * [redis官网](https://redis.io/)
 * [redis中文网](http://www.redis.net.cn/)
-
+* [redis镜像地址](http://download.redis.io/releases/)
 
 
 ---
