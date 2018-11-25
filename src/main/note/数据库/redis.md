@@ -15,7 +15,7 @@
 
 ---
     1.redis怎样实现持久化？
-        RDB、AOF
+        RDB、AOF，默认使用RDB，2这可以共存
     2.Redis相比memcached有哪些优势？
         (1) memcached所有的值均是简单的字符串，redis作为其替代者，支持更为丰富的数据类型
         (2) redis的速度比memcached快很多
