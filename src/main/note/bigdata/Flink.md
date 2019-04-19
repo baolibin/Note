@@ -10,4 +10,5 @@
 
     Flink基本组件：Data Source、Transformations、Data Sink
 
-
+    spark streaming是一个batch一个batch的处理。
+    storm和Flink都是一条一条的处理。
