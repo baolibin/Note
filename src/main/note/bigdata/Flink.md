@@ -12,3 +12,11 @@
 
     spark streaming是一个batch一个batch的处理。
     storm和Flink都是一条一条的处理。
+
+##### 流处理编程
+    DataFrame和DataSet：
+    Flnik用DataStream表示无界数据集，用DataSet表示有界数据集，前者用于流处理应用程序，后者用于批处理。
+    程序结构：
+    StreamingExecutionEnvironment和ExecutionEnvironment分别对应流处理和批处理。
+    
+    
