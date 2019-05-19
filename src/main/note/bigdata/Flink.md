@@ -19,6 +19,18 @@
     程序结构：
     StreamingExecutionEnvironment和ExecutionEnvironment分别对应流处理和批处理。
     
-##### Flink Windows操作
-
+##### Flink Window操作
+    流是无界的，对流中所有元素进行聚合是不可能的，可以通过window来划定范围。
+    窗口可以是 时间驱动(Time Window) 或 数据驱动(Count Window)
     
+    window类型：
+    tumbling windows ： 滚动窗口(没有重叠)
+    sliding windows ： 滑动窗口 (有重叠)
+    session windows ： 会话窗口
+
+
+![Flink窗口](./doc/flink窗口.jpg)   
+ 
+![Flink滚动窗口](./doc/flink滚动窗口.png)   
+ 
+![Flink滑动窗口](./doc/flink滑动窗口.png)   
