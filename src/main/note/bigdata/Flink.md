@@ -34,3 +34,13 @@
 ![Flink滚动窗口](./doc/flink滚动窗口.png)   
  
 ![Flink滑动窗口](./doc/flink滑动窗口.png)   
+
+##### Flink Time
+    Flink Stream数据中的时间，可以分为以下三种：
+    Event Time ： 时间产生时间，通常由事件中的时间戳描述。
+    Ingestion Time ：事件进入Flink时间。
+    Processing Time ： 事件被处理时当前系统的时间。 
+    
+    在Flink中，默认是 Processing Time。
+![Flink时间](./doc/flink时间.png)      
+    
