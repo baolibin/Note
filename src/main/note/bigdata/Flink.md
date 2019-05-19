@@ -28,11 +28,11 @@
     sliding windows ： 滑动窗口 (有重叠)
     session windows ： 会话窗口
 
-
+* Flink窗口
 ![Flink窗口](./doc/flink窗口.jpg)   
- 
+* Flink滚动窗口
 ![Flink滚动窗口](./doc/flink滚动窗口.png)   
- 
+* Flink滑动窗口 
 ![Flink滑动窗口](./doc/flink滑动窗口.png)   
 
 ##### Flink Time
@@ -42,5 +42,15 @@
     Processing Time ： 事件被处理时当前系统的时间。 
     
     在Flink中，默认是 Processing Time。
+* Flink时间      
 ![Flink时间](./doc/flink时间.png)      
     
+##### flink watermarks
+    用于处理乱序数据。比如上游是kafka，同一个分区内可以保证有序，但是不同分区之间无法保证。
+    不排除由于网络延迟等原因，导致数据乱序的产生。
+* watermarks有序     
+![watermarks有序](./doc/watermarks有序.png)  
+* watermarks无序
+![watermarks无序](./doc/watermarks无序.png)     
+
+
