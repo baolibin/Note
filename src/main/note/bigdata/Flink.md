@@ -57,4 +57,13 @@
 * watermarks无序
 ![watermarks无序](./doc/watermarks无序.png)     
 
+##### flink状态(state)
+    state默认指一个具体的task/operator 。 state数据默认存储在java堆内存中。
+    task指flink中执行的基本单元，operator指算子transformation。
+
+##### flink checkpoint
+    checkpoint表示flink job在一个特定时刻的一份全局状态的快照，包括了task和operator状态。
+    checkpoint是flink实现容错机制最核心的功能，根据配置周期性的基于stream中的各个task/operator的
+    状态来生成快照，将这些数据定期持久化的存储下来，当程序崩溃重启可以根据这些快照进行恢复。
+
 
