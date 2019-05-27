@@ -60,6 +60,15 @@
 ##### flink状态(state)
     state默认指一个具体的task/operator 。 state数据默认存储在java堆内存中。
     task指flink中执行的基本单元，operator指算子transformation。
+    
+    Flink中有两种基本类型的State
+    1.Keyed State
+    2.Operator State
+    
+    可以以两种形式存在：
+    1.原始状态：Flink框架管理的状态
+    2.托管状态：用户自行管理状态的数据结构
+    通常在DataStream上的状态推荐使用托管的状态，当实现一个自定义的Operator时，会使用到原始状态。
 
 ##### flink checkpoint
     checkpoint表示flink job在一个特定时刻的一份全局状态的快照，包括了task和operator状态。
