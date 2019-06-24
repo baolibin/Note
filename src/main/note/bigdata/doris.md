@@ -19,3 +19,6 @@
 
 * [wiki文档](https://github.com/apache/incubator-doris/wiki)  
     
+##### 分级存储
+    用户可以指定数据放到SSD 上或者SATA 盘上, 也支持根据TTL 将冷数据从SSD 迁移到SATA 上,高效利用SSD 提高查询性能
+    
