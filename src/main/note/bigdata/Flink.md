@@ -75,6 +75,8 @@
     checkpoint是flink实现容错机制最核心的功能，根据配置周期性的基于stream中的各个task/operator的
     状态来生成快照，将这些数据定期持久化的存储下来，当程序崩溃重启可以根据这些快照进行恢复。
 
-##### flink缓存
+##### flink的State类型
+    Keyed State：和key相关的状态类型，它只能被基于KeyedStream之上的操作。
+    Operator State：和key无关的一种状态类型。
 
 
