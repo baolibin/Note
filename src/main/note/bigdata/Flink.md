@@ -6,6 +6,16 @@
     支持实时流(stream)处理和批处理(batch)，批处理只是流处理的一个极限特例。
     Flink原生支持了迭代计算、内存管理和程序优化。
     
+##### Flink 主要知识点    
+    框架架构
+    编程API
+    窗口
+    时间
+    状态
+    检查点
+    一致性语义
+    
+    
 ![Flink架构图](./doc/Flink架构图.jpg)
 
     Flink基本组件：Data Source、Transformations、Data Sink
@@ -79,5 +89,10 @@
 ##### flink的State类型
     Keyed State：和key相关的状态类型，它只能被基于KeyedStream之上的操作。
     Operator State：和key无关的一种状态类型。
+
+##### flink checkout
+
+
+##### flink exactly once
 
 
