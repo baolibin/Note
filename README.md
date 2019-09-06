@@ -1,15 +1,38 @@
 ## 学习笔记
 
-### bigdata
+### 大数据
+* [bigdata](src/main/note/bigdata/bigdata.md)
 * [doris](src/main/note/bigdata/doris.md)
+* [druid](src/main/note/bigdata/druid.md)
+* [flink](src/main/note/bigdata/flink.md)
+* [hdfs](src/main/note/bigdata/hdfs.md)
+* [hive](src/main/note/bigdata/hive.md)
+* [impala](src/main/note/bigdata/impala.md)
+* [kafka](src/main/note/bigdata/kafka.md)
+* [kudu](src/main/note/bigdata/kudu.md)
+* [kylin](src/main/note/bigdata/kylin.md)
+* [mapreduce](src/main/note/bigdata/mapreduce.md)
+* [presto](src/main/note/bigdata/presto.md)
+* [spark](src/main/note/bigdata/spark.md)
+* [yarn](src/main/note/bigdata/yarn.md)
+* [zookeeper](src/main/note/bigdata/zookeeper.md)
+* [大数据](src/main/note/bigdata/大数据.md)
 
+### 计算机导论
+* [计算机导论](src/main/note/bigdata/计算机导论.md)
 
-
-
-
-
-
-
+### 机器学习
+* [auc](src/main/note/bigdata/auc.md)
+* [gbdt](src/main/note/bigdata/gbdt.md)
+* [logloss](src/main/note/bigdata/logloss.md)
+* [lr](src/main/note/bigdata/lr.md)
+* [tfidf](src/main/note/bigdata/tfidf.md)
+* [word2vec](src/main/note/bigdata/word2vec.md)
+* [xgboost](src/main/note/bigdata/xgboost.md)
+* [准确性](src/main/note/bigdata/准确性.md)
+* [归一化](src/main/note/bigdata/归一化.md)
+* [排列组合](src/main/note/bigdata/排列组合.md)
+* [梯度下降](src/main/note/bigdata/梯度下降.md)
 
 
 
