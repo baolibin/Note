@@ -96,3 +96,8 @@
 ##### flink exactly once
 
 
+
+
+* 1 . [Flink OutputTag是啥？](https://ci.apache.org/projects/flink/flink-docs-stable/dev/stream/side_output.html)
+   
+
